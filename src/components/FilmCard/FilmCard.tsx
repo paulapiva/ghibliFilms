@@ -19,14 +19,14 @@ const Figure = styled.figure`
   border: 1px solid black;
   border-radius: 5px;
   width: 45%;
-  height: 600px;
+  height: (100%-50);
   margin-bottom: 20px;
   overflow: hidden;
   position: relative;
   img {
     width: 100%;
-    height: 60%;
-    object-fit: cover;
+    height:100%;
+    object-fit: contain;
   }
   figcaption {
     padding: 10px;
@@ -45,7 +45,7 @@ const Figure = styled.figure`
   }
   button {
     position: absolute;
-    top: 10px;
+    top: 35px;
     right: 10px;
     border: none;
     background: rgba(255, 255, 255, 0.5);
