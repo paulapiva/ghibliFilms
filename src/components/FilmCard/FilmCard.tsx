@@ -19,6 +19,8 @@ const Figure = styled.figure`
   border: 1px solid black;
   border-radius: 5px;
   width: 45%;
+  /* @media screen and (max-width: 1000px) {}  */
+
   height: (100%-50);
   margin-bottom: 20px;
   overflow: hidden;

@@ -9,11 +9,20 @@ const Container = styled.div`
   justify-content: center; 
   gap: 20px;
 `;
+const MainEstilizada = styled.main`
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+`
 
 function Films() {
   const { films, favorites } = useContext(FilmsContext);
   return (
-    <main>
+    <MainEstilizada>
       <h1>Films</h1>
       <Container>
         {films.map((film) => (
@@ -24,7 +33,7 @@ function Films() {
           />
         ))}
       </Container>
-    </main>
+    </MainEstilizada>
   );
 }
 

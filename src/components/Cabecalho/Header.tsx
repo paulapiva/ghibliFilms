@@ -12,6 +12,7 @@ const HeaderEstilizado = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* flex-wrap: wrap; */
   img{
     width: 320px;
     height: 150px;
@@ -28,8 +29,8 @@ const HeaderEstilizado = styled.header`
       color: #000000;
       text-decoration: none;
       font-size: 25px;
-      font-weight: 600;  
-      font-family: 'Raleway';
+      font-weight: 400;  
+      
     }
   }
 `;
